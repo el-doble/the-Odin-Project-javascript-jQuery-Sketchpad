@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sketchpad</title>
+	<link rel="stylesheet" href="sketchpad.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>
+				<a href="http://www.theodinproject.com/web-development-101/javascript-and-jquery">The Odin Project</a>
+				  - jQuery Etch-A-Sketch Project
+			 </h1>
+			<div id="options">
+				<h4>Select Drawing Mode:</h4>
+				<select name="dropdown">
+				<option value="default">Default</option>
+				<option value="random">Random colour</option>
+				<option value="gradient">Gradient</option>
+				</select>
+				<button>Clear Grid</button><br>
+				<p>(NB - You may switch between modes whilst sketching)</p>
+			</div>
+		</header>
+
+		<div id="main">
+			<div id="viewport">
+				<div id="grid-container"></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="sketchpad.js"></script>
+</body>
+</html>

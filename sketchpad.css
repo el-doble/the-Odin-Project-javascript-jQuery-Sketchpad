@@ -1,0 +1,63 @@
+html {
+	background-color: beige;
+}
+
+#wrapper {
+	width: 1200px;
+	margin: 60px auto;
+}
+
+#options {
+	padding: 0 0 20px;
+}
+
+header {
+	text-align: center;
+	font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+	display: inline-block;
+	text-shadow: 3px 2px 4px #AAA;
+}
+
+h4 {
+	display: inline-block;
+	text-shadow: 2px 2px 5px #BBB;
+}
+
+p {
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 0 10px;
+}
+
+select, button {
+box-shadow: 1px 1px 2px #BBB;
+}
+
+#main {
+	background: #fff url(images/etchasketch.jpg) 0 0 no-repeat;
+	height: 990px;
+	box-shadow: 0px 15px 15px 12px #888;
+}
+
+#viewport {
+	width: 880px;
+	height: 642px;
+	margin: 0 auto;
+	padding: 155px 0;
+}
+
+#grid-container {
+	width: 880px;
+	height: 642px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #000;	
+}
+
+.square {
+	background-color: #DDD;
+	float: left;
+}
